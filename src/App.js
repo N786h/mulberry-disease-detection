@@ -38,7 +38,7 @@ function App() {
     const payload = {
       message: userInput,
     };
-    fetch('http://127.0.0.1:5000/chat', {
+    fetch('https://mulberry-backend.onrender.com/chat', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify( payload ),
@@ -67,7 +67,7 @@ function App() {
     const formData = new FormData();
     formData.append('file', blob);
 
-    fetch('http://127.0.0.1:5000/upload', {
+    fetch('https://mulberry-backend.onrender.com/upload', {
       method: 'POST',
       body: formData,
     })
