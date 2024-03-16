@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mulberry-disease-detection/static/css/main.195db4d7.css",
+    "main.js": "/mulberry-disease-detection/static/js/main.5fda1a09.js",
+    "static/js/787.2ef99b5b.chunk.js": "/mulberry-disease-detection/static/js/787.2ef99b5b.chunk.js",
+    "index.html": "/mulberry-disease-detection/index.html",
+    "main.195db4d7.css.map": "/mulberry-disease-detection/static/css/main.195db4d7.css.map",
+    "main.5fda1a09.js.map": "/mulberry-disease-detection/static/js/main.5fda1a09.js.map",
+    "787.2ef99b5b.chunk.js.map": "/mulberry-disease-detection/static/js/787.2ef99b5b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.195db4d7.css",
+    "static/js/main.5fda1a09.js"
+  ]
+}
