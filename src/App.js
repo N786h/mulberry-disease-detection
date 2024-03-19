@@ -144,7 +144,7 @@ return (
         {loading && (
           <div className="mt-4">
             <div className="spinner-border text-primary" role="status">
-              <span className="sr-only">Loading...</span>
+              <span className="sr-only">Loading</span>
             </div>
             <p>Image is being processed...</p>
           </div>
