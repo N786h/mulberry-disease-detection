@@ -38,7 +38,7 @@ function App() {
     const payload = {
       message: userInput,
     };
-    fetch('http://10.171.16.110:5000/chat', {
+    fetch('https://k5br280m-5000.inc1.devtunnels.ms/chat', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify( payload ),
@@ -67,7 +67,7 @@ function App() {
     const formData = new FormData();
     formData.append('file', blob);
 
-    fetch('http://10.171.16.110:5000/upload', {
+    fetch('https://k5br280m-5000.inc1.devtunnels.ms/upload', {
       method: 'POST',
       body: formData,
     })
