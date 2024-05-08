@@ -38,7 +38,7 @@ function App() {
     const payload = {
       message: userInput,
     };
-    fetch('https://k5br280m-5000.inc1.devtunnels.ms/chat', {
+    fetch('https://refactored-engine-j47pqp9rw5qfjp97-5000.app.github.dev/chat', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify( payload ),
@@ -67,7 +67,7 @@ function App() {
     const formData = new FormData();
     formData.append('file', blob);
 
-    fetch('https://k5br280m-5000.inc1.devtunnels.ms/upload', {
+    fetch('https://refactored-engine-j47pqp9rw5qfjp97-5000.app.github.dev/upload', {
       method: 'POST',
       body: formData,
     })
