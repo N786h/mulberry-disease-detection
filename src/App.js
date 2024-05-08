@@ -38,7 +38,7 @@ function App() {
     const payload = {
       message: userInput,
     };
-    fetch('https://bug-free-orbit-g5rv7v6xp943pgvx-5000.app.github.dev/chat', {
+    fetch('https://refactored-engine-j47pqp9rw5qfjp97-5000.app.github.dev/chat', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify( payload ),
@@ -67,7 +67,7 @@ function App() {
     const formData = new FormData();
     formData.append('file', blob);
 
-    fetch('https://bug-free-orbit-g5rv7v6xp943pgvx-5000.app.github.dev/upload', {
+    fetch('https://refactored-engine-j47pqp9rw5qfjp97-5000.app.github.dev/upload', {
       method: 'POST',
       body: formData,
     })
