@@ -38,7 +38,7 @@ function App() {
     const payload = {
       message: userInput,
     };
-    fetch('https://refactored-engine-j47pqp9rw5qfjp97-5000.app.github.dev/chat', {
+    fetch('http://10.171.16.110:5000/chat', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify( payload ),
@@ -67,7 +67,7 @@ function App() {
     const formData = new FormData();
     formData.append('file', blob);
 
-    fetch('https://refactored-engine-j47pqp9rw5qfjp97-5000.app.github.dev/upload', {
+    fetch('http://10.171.16.110:5000/upload', {
       method: 'POST',
       body: formData,
     })
